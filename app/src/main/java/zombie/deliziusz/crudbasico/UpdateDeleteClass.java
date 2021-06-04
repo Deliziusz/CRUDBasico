@@ -76,7 +76,7 @@ public class UpdateDeleteClass extends AppCompatActivity implements View.OnClick
             case R.id.btnEliminarUD:
                 Snackbar.make(view, "¿Eliminar?", Snackbar.LENGTH_LONG)
                         .setActionTextColor(Color.WHITE)
-                        .setAction("Simón", new View.OnClickListener() {
+                        .setAction("Claro que yes", new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
                                 eliminar();
